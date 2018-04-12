@@ -12,3 +12,5 @@ class Publisher {
         this.subscribers.forEach( item => {item.inbox.call(item, event);});
       }  
   }
+
+  
